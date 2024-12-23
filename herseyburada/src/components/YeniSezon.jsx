@@ -1,11 +1,13 @@
 import React from 'react';
 
+
 export default function YeniSezon() {
   return (
     <div className="bg-white min-h-screen flex flex-col items-center justify-center px-4 py-6 max-w-sm mx-auto md:ml-auto md:pl-4">
       {/* Üst Metin */}
       <p className="text-gray-500 uppercase text-xs tracking-widest mb-2">
-        SUMMER 2024
+        SELOŞUN ALIŞVERİŞ SAYFASINA HOŞGELDİNİZ
+        
       </p>
 
       {/* Başlık */}
