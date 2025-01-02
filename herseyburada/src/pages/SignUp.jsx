@@ -289,6 +289,10 @@ const SignupForm = () => {
         >
           {loading ? "Submitting..." : "Sign Up"}
         </button>
+        <button className="text-gray-600 hover:text-gray-900">
+          <a href="/login"className="fas fa-search">Giriş yapma Sayfasına geri dön</a>
+        </button>
+
       </form>
     </div>
   );

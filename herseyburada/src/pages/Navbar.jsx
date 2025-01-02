@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Navbar = () => {
@@ -27,9 +28,7 @@ const Navbar = () => {
         <button className="text-gray-600 hover:text-gray-900">
           <a href="/login" className="fas fa-user">log out</a>
         </button>
-        <button className="text-gray-600 hover:text-gray-900">
-          <a href="/signup"className="fas fa-search">sign up</a>
-        </button>
+       
         <button className="text-gray-600 hover:text-gray-900">
           <i className="fas fa-shopping-cart"></i>
         </button>

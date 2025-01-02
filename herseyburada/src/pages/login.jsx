@@ -78,6 +78,17 @@ const LoginForm = () => {
         >
           Login
         </button>
+        <button className="text-gray-600 hover:text-gray-900">
+          <a href="/signup"className="fas fa-search">sign up</a>
+        </button>
+
+        <div className="flex justify-end p-4">
+      <button className="text-gray-600 hover:text-gray-900">
+        <a href="/YeniSezon" className="fas fa-search">
+          Ana sayfa
+        </a>
+      </button>
+    </div>
       </form>
     </div>
   );
